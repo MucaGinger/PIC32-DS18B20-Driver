@@ -91,7 +91,6 @@ As mentioned earlier, the project development utilized MPLAB X (v6.05), paired w
 ![fig4](./img/DS18B20.svg)
 
 **Figure 4**: DS18B20 Library Dependencies.<br>
-<small>Source: Maxim Integrated</small>
 </div>
 
 Besides the main DS18B20 driver dependencies there are other dependencies such as:
