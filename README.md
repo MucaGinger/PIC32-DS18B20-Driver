@@ -75,8 +75,8 @@ The development, testing, and API validation of the DS18B20 driver utilized the 
 
 Given the simplicity of DS18B20 sensor interface it usually comes as a 3-pin device. For THT type of housing the outer pins are usually the `VCC` and `GND` supply pins meanwhile the middle one is `DQ` data pin which acts as Rx/Tx pin. The MCU connects directly to this component, eliminating the need for intermediary components.
 
-[!WARNING]
-During testing of DS18B20 sensor make sure that a sufficient distance between sensor and MCU is guaranteed else there might be increased in measurement error due to increased ambient temperature nearby MCU due to its self heating.
+> [!WARNING]
+> During testing of DS18B20 sensor make sure that a sufficient distance between sensor and MCU is guaranteed else there might be increased in measurement error due to increased ambient temperature nearby MCU due to its self heating.
 
 ## Software and Build Process
 As mentioned earlier, the project development utilized MPLAB X (v6.05), paired with Microchip's XC32 (v4.21) toolchain for building the project. For detailed information on required libraries for using the DS18B20 driver, please refer to the [Dependencies and Prerequisites](#-dependencies-and-prerequisites) section.
