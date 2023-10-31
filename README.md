@@ -83,7 +83,7 @@ As mentioned earlier, the project development utilized MPLAB X (v6.05), paired w
 
 # 📚 Dependencies and Prerequisites
 
-[Figure 4](#fig4) illustrates the dependencies of the DS18B20 driver. <span style="color: #009999;">Green blocks</span> represent MCU peripheral drivers, primarily utilized for OneWire communication between the MCU and the DS18B20 external device, indicated by the <span style="color: #FF6666;">red block</span>. A timer serves as an additional feature, providing waiting period for the DS18B20 execute its measurement. The required MCU drivers for the PIC32MX device, used for the development and testing of this driver, were custom-developed and are accessible in a separate [repository](https://github.com/MucaGinger/PIC32MX-Peripheral-Libs).
+[Figure 4](#fig4) illustrates the dependencies of the DS18B20 driver. <span style="color: #009999;">Green blocks</span> represent MCU peripheral drivers, primarily utilized for OneWire communication between the MCU and the DS18B20 external device, indicated by the <span style="color: #FF6666;">red block</span>. A timer serves as an additional feature, providing waiting period for the DS18B20 execute its measurement. The required MCU drivers for the PIC32MX device, used for the development and testing of this driver, were custom-developed and are accessible in a separate [repository](https://github.com/lgacnik/PIC32MX-Peripheral-Libs).
 
 <div align="center">
 
@@ -327,7 +327,7 @@ int main (int argc, char** argv)
 
 # 📞 Getting in Touch and Contributions
 
-If you encounter any bugs or have suggestions, please [raise an issue](https://github.com/MucaGinger/PIC32-DS18B20-Driver/issues). Alternatively, feel free to contact me directly via [email](mailto:lgacnik97@gmail.com) if you're interested in contributing or taking this project to the next level.
+If you encounter any bugs or have suggestions, please [raise an issue](https://github.com/lgacnik/PIC32-DS18B20-Driver/issues). Alternatively, feel free to contact me directly via [email](mailto:lgacnik97@gmail.com) if you're interested in contributing or taking this project to the next level.
 
 # ©️ License and Usage Terms
 
